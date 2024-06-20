@@ -3,7 +3,7 @@
 
 const Newsitem = ({title,description,src,url}) => {
   return (
-    <div class="card bg-dark text-light mb-3 d-inline-block" style={{maxWidth:"345px"}}>
+    <div class="card bg-dark text-light mb-3 d-inline-block my-3 mx-3 px-2 py-2" style={{maxWidth:"345px"}}>
   <img src={src} class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">{title}</h5>
